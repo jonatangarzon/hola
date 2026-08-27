@@ -30,6 +30,15 @@ c = Canvas(frame_graficacion, width=BASE, height=ALTURA)
 c.config(bg="#B7E9BF")
 c.place(x=10, y=10)
 
+#----------------------------------
+# frame de cpontroles   
+#---------------------------------
+frame_controles = Frame(ventana_principal)
+frame_controles.config(bg="#E19E71", width=480, height=230)
+frame_controles.place(x=10, y=260)                                          
+
+
+
 
 
 #------------------------
