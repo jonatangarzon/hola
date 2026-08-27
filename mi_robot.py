@@ -36,13 +36,17 @@ c.place(x=10, y=10)
 # Lineas rectas
 #-------------------------------
 linea_1 = c.create_line(BASE/2- 130, ALTURA/2+ 500, BASE/2+ 0, 330, fill="gray", width=12)
-linea_2 = c.create_line(BASE/2, ALTURA/2+ 240, BASE/2, ALTURA/2- 0, fill="gray" , widt=12)
+linea_2 = c.create_line(BASE/2, ALTURA/2+ 240, BASE/2, ALTURA/2- 0, fill="gray" , width=12)
 linea_3 = c.create_line(BASE/2+ 130, ALTURA/2+ 500, BASE/2+ 0, 330, fill="gray", width=12)
 linea_4 = c.create_line(BASE- 100, ALTURA- 0, BASE/2+ 0, 110, fill="gray", width=12)
 linea_5 = c.create_line(BASE- 375, ALTURA- 0, BASE/2+ 0, 110, fill="gray", width=12)
-linea_6= c.create_line(BASE/2- 130, ALTURA/2+ 500, BASE/2+ 0, 330, fill="gray", width=80)
+linea_6= c.create_line(BASE/2- 130, ALTURA/2+ 500, BASE/2+ 0, 330, fill="gray", width=60)
+linea_7 = c.create_line(BASE/2, ALTURA/2+ 240, BASE/2, ALTURA/2- 0, fill="gray" , width=60)
+linea_8 = c.create_line(BASE/2+ 130, ALTURA/2+ 500, BASE/2+ 0, 330, fill="gray", width=60) 
+linea_9 = c.create_line(BASE- 100, ALTURA- 0, BASE/2+ 0, 110, fill="gray", width=60)
+linea_10 = c.create_line(BASE- 375, ALTURA- 0, BASE/2+ 0, 110, fill="gray", width=60)
 
-    
+
 #----------------------------
 # Círculos
 #----------------------------
